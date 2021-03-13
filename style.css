@@ -1,0 +1,70 @@
+
+#red-circle {
+   
+
+    background-color: #fb4d3d;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+}
+#green-circle {
+   
+
+    background-color: #03cea4;
+    border-radius: 100%;
+    width: 330px;
+    height: 330px;
+    z-index: 8;
+}
+
+#blue-circle {
+    background: #345995;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+ } 
+
+ .white-circle {
+   
+
+    background-color: white;
+    border-radius: 100%;
+}
+#small-white-circle {
+    width: 260px;
+    height: 260px;
+    z-index: 9;
+}
+#large-white-circle {
+    width: 410px;
+    height: 410px;
+    z-index: 5;
+}
+
+#circles {
+    height: 500px;  
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 50%;
+}
+
+.center  {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#control-panel {
+    top: 80%;
+    text-align: center;
+}
+
+.check-box {
+    margin: 0 20px;
+    display: inline;
+}
+
